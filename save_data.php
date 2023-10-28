@@ -1,9 +1,6 @@
 <?php
 // Establish a database connection
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "safco";
+include('config.php');
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
